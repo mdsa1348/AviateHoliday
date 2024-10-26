@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.mycontainers{
+    width: 100%;
+    /* padding: 0 20px; */
+    background-color: rgb(210, 165, 165);
+    border-radius: 15px;
+}
+  
+.Numbersrow{
+    width: 100%;
+    height: 30vh;
+}
+.col_3{
+    height: 100%;
+    width: calc(100% / 4);
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* .number_counter .row{
+    background-color: blue;
+    margin-right: 9.5vw;
+    margin-left: .5vw;
+    margin-bottom: 5vw;
+} */
+
+
+
+
+@media only screen and (max-width: 340px) {
+    .mycontainers{
+        height: 60vh;
+        background-color: rgb(210, 165, 165);
+        border-radius: 15px;
+    }
+
+    .col_3{
+        height: 100%;
+        width: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    .col_3 h1{
+        font-size: 28px;
+    }
+    .col_3 h2{
+        font-size: 20px;
+    }
+}

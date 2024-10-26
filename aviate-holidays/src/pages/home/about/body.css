@@ -1,0 +1,21 @@
+
+.Graph {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10vh;
+    padding: 5vw;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button-row button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

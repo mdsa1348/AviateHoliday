@@ -1,0 +1,47 @@
+.details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .country-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .detail-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+  }
+  
+  .detail-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .detail-card h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .detail-card p {
+    margin: 5px 0;
+  }
+  
+  .detail-card button {
+    padding: 10px 0;
+    bottom: 10px;
+    right: 10px;
+    margin-left: 10px;
+  }
+  
+  .detail-card button:first-of-type {
+    right: 70px;
+  }
+  
+  .Countrydetails{
+    margin: 10vw;
+}

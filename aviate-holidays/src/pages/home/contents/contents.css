@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;padding: 0;
+}
+
+.contentscontainer {
+    padding: 2vw;
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    /* margin-bottom: 10vh;
+    margin-top: 10vh; */
+    display: flex;
+    background-color: rgb(243, 241, 241);
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+
+.part1 {
+    height: 40vh;
+    background-color: rgb(208, 207, 207);
+    border-radius: 20px;
+    padding: 0 15px;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+}
+
+/* .part1 h5 {
+    
+    font-size: 1.5vw ;
+    text-align: center; 
+} */
+
+.justified-text {
+    font-size: 1.3vw ;
+    padding: 0 1vw;
+    font-weight: 500;
+    text-align: justify;
+    width: 100%; /* Adjust as needed */
+    margin: 0 auto; /* Center the text block within its container */
+  }
+
+.part2{
+    height: 40vh;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.part2 iframe{
+    height: 40vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 340px) {
+    .container1 {
+        display: flex;
+        align-items: center;
+
+    }
+    .contentscontainer{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .part1, .part2 {
+        width: 100%;
+        background-color: white;
+        margin-bottom: 10vh;
+    }
+    .part1 h5{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,27 @@
+.formInput{
+    width: 100%;
+    
+    align-items: center;
+    text-align: center;
+  }
+  .formsubmit{
+    text-align: center;
+    width: 20vw !important;
+    margin: 0 auto;
+  }
+  .formInputss{
+    margin-right: 2vw;
+    margin-left: 1vw;
+    padding-left: 10px;
+  }
+
+ .inextable{
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  text-align: start !important;
+ }
+ /* .DateInputss{
+  width: 20vw !important;
+  margin-right: 5vw;
+ } */

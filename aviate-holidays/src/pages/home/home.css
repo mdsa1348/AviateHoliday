@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Homehm{
+  overflow-x: hidden;
+}
+.MyBody{
+    background-color: rgb(242, 240, 240);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    
+    overflow-x: hidden;
+}
+
+.center {
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    margin: 5vh 0 6vh 0 !important;
+  }
+  .end{
+    text-align: end;
+
+  }
+  .my-button {
+    background-color: #f2541b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-button:hover {
+    background-color: #090909;
+    color: white;
+  }
+  .center::after {
+    content: "";
+    width: calc(100% - 80%); /* Adjust width as needed */
+    height: 2px;
+    background-color: rgb(37, 212, 219);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Center the underline */
+  }
+  
+  .center::before {
+    content: "";
+    width: calc(100% - 75vw); /* Adjust width as needed */
+    height: 2px;
+    background-color: rgb(37, 212, 219);
+    position: absolute;
+    bottom: -8px; /* Adjust distance between underlines */
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Center the underline */
+  }
+  
+  
+  @media only screen and (min-width: 340px) {
+    .center {
+        
+        margin: 5vh ;
+    
+      }
+}

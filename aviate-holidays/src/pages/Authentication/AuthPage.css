@@ -1,0 +1,144 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px; /* Limit maximum width for responsiveness */
+    text-align: center; /* Center align contents */
+    position: relative;
+  }
+  
+  .form-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden; /* Ensure contents don't overflow */
+    animation-duration: 5s; /* Adjusted animation duration to 5 seconds */
+    animation-timing-function: ease-in-out; /* Smooth animation */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align form labels and inputs to the left */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666666;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  .account{
+    margin-top: 2.5vh;
+    
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Add spacing above the button */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    color: #888888;
+    cursor: pointer;
+  }
+  
+  /* Slide in from right keyframe animation */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  /* Slide out to left keyframe animation */
+  @keyframes slideOutToLeft {
+    0% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Slide in from left keyframe animation */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  /* Slide out to right keyframe animation */
+  @keyframes slideOutToRight {
+    0% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Apply animations based on the active state */
+  .form-box.signin-enter {
+    animation-name: slideInFromRight;
+  }
+  
+  .form-box.signin-exit {
+    animation-name: slideOutToLeft;
+  }
+  
+  .form-box.signup-enter {
+    animation-name: slideInFromLeft;
+  }
+  
+  .form-box.signup-exit {
+    animation-name: slideOutToRight;
+  }
+  

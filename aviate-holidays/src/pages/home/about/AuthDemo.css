@@ -1,0 +1,102 @@
+.auth-demo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e4e4e4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 60%;
+    max-width: 800px;
+    display: flex;
+  }
+  
+  .auth-form {
+    flex: 70%; /* Takes 70% of the width */
+    padding: 20px;
+    color: black;
+    padding: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .auth-toggle {
+    flex: 30%; /* Takes 30% of the width */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .auth-form h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+   .form-group label{
+    color: black;
+   }
+  .auth-form .form-group {
+    margin-bottom: 12px;
+    
+  }
+  
+  .auth-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+
+  .auth-form .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+  }
+  
+  .auth-form button,
+  .auth-toggle button {
+    padding: 10px 20px;
+    background-color: rgb(252, 138, 32);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-toggle p {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .auth-toggle button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-in {
+    background-color: #007bff; /* Blue background for sign in section */
+  }
+  
+  .sign-up {
+    background-color: #28a745; /* Green background for sign up section */
+  }
+  
+  .auth-form button:hover,
+  .auth-toggle button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000;
+  }
+  

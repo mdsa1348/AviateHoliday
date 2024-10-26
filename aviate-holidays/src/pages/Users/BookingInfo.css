@@ -1,0 +1,124 @@
+.booking-container {
+    margin-top: 10vh;
+    padding: 0 2vw;
+}
+
+.title {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+.PrevInputs{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vh;
+}
+
+.dateInput {
+    height: 5vh;
+    width: 30%;
+    padding: 0 1vw;
+    margin-bottom: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.users-container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.userInputs {
+    padding: 2vw;
+    background: #fff;
+    margin-bottom: 1.5vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    box-sizing: border-box;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    background: #007bff;
+    padding: 0.5vh 1vw;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+
+.input-group {
+    margin-bottom: 1.5vh;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5vh;
+    font-weight: bold;
+}
+
+.formInput {
+    height: 5vh;
+    width: 100%;
+    padding: 0 1vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.formsubmit {
+    height: 6vh;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.formsubmit:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .userInputs {
+        padding: 1vw;
+        width: 100%;
+    }
+
+    .input-group {
+        margin-bottom: 1vh;
+    }
+
+    .formInput {
+        height: 4.5vh;
+        width: 100%;
+    }
+
+    .formsubmit {
+        height: 5.5vh;
+        font-size: 1em;
+    }
+}
+
+.formsubmit{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh !important;
+}

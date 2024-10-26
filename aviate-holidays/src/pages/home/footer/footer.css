@@ -1,0 +1,49 @@
+/* footer.css */
+
+.myfooter2 {
+    padding: 20px;
+    background-color: #a393e3;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-8 {
+    width: 66.666667%; /* 8 out of 12 columns */
+    padding: 0 15px;
+  }
+  
+  .col-2 {
+    width: 16.666667%; /* 2 out of 12 columns */
+    padding: 0 15px;
+    text-align: center;
+  }
+  
+  /* Additional styling for ul and li */
+  .col-2 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .col-2 li {
+    margin-bottom: 8px;
+  }
+  .my_iframe iframe {
+    width: 100% !important;
+    border-radius: 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .col-8 {
+      width: 100%; /* Full width on smaller screens */
+    }
+    
+    .col-2 {
+      width: 50%; /* Full width on smaller screens */
+      margin-top: 20px; /* Add some spacing between columns */
+    }
+  }
+  

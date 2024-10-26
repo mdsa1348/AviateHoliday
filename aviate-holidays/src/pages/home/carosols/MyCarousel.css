@@ -1,0 +1,118 @@
+/* Add your existing styles here */
+*{
+  padding: 0;
+  margin: 0;
+}
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px 16px;
+  background-color: rgba(0, 0, 0, 0.371);
+  color: #fff; /* Button color */
+  z-index: 1; /* Ensure the buttons appear above other content */
+}
+
+.prev-btn {
+  left: 3vw; /* Adjust as needed */
+}
+
+.next-btn {
+  right: 3vw; /* Adjust as needed */
+}
+
+.carousel-slides {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: none;
+  transition: transform 0.3s ease-in-out; /* Transition for slide animation */
+}
+
+.carousel-slide.active {
+  display: block;
+  transition: transform 0.3s ease-in-out; /* Transition for slide animation */
+}
+
+.carousel-image {
+  transition: ease-in-out;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  padding: 6px 5px;
+}
+
+.indicator {
+  width: 13px;
+  height: 13px;
+  background-color: #f7f6f6; /* Inactive indicator color */
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #000000; /* Active indicator color */
+}
+
+.carousel-dropdown {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 15vw !important; /* Adjust width as needed */
+  margin-right: 5vw;
+}
+
+.country-dropdown {
+  width: 15vw;
+  padding: 0.5rem;
+  font-size: 1rem;
+  
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.304);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

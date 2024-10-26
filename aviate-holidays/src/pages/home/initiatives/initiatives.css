@@ -1,0 +1,151 @@
+.INITIATIVES_container{
+    height: 100vh;
+    background-color: rgb(152, 151, 151);
+    /* margin-left:11vw; */
+    overflow-x: hidden;
+    margin-bottom: -16vh !important;
+}
+.initiativeRow{
+    height: 80%;
+    border-radius: 12px;
+    padding: 0 2vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(251, 189, 118);
+}
+.INITIATIVES_card{
+    /* margin-top: 5vh; */
+    font-size: vw;
+    height: 65vh;
+    width: 25vw;
+    padding-top: 2vh;
+    text-align: center;
+    background-color: gray;
+    /* margin-right: 15px; */
+    border-radius: 10px;
+    box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .2s ease-in-out;
+}
+.INITIATIVES_card h5{
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+.INITIATIVES_card:hover{
+    
+    box-shadow: 0 18px 18px 0 rgba(222, 54, 54, 0.899), 0 6px 20px 0 rgba(24, 198, 15, 0.19);
+    
+}
+
+.book_demo{
+    background-color: rgb(194, 206, 106);
+    margin-top: 21vh;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s ;
+}
+.book_demo:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.book_demo:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.Download_App{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    margin-top: 20vh;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s ;
+}
+.Download_App:hover{
+    background-color: rgb(194, 206, 106);
+    color: black;
+    font-weight: bold;
+   
+}
+.Download_App:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.Join_Program{
+    background-color: rgb(194, 206, 106);
+    margin-top: 18vh;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s ;
+}
+.Join_Program:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.Join_Program:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.h_line{
+    height: 2vh;
+    width: 25vw;
+    margin-top: 1.5vw;
+    /* margin-left: -10px; */
+    background-color: red;
+}
+.h_line2{
+    height: 2vh;
+    width: 25vw;
+    margin-top: .3vw;
+    /* margin-left: -12px; */
+    background-color: rgb(0, 0, 0);
+}
+.h_line1{
+    height: 2vh;
+    width: 25vw;
+    margin-top: 1.6vw;
+    /* margin-left: -12px; */
+    background-color: red;
+}
+.INITIATIVES_card a{
+  color: black;
+}
+
+
+@media only screen and (max-width: 340px) {
+    .INITIATIVES_card{
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    .INITIATIVES_container{
+        height: 270vh;
+        margin-bottom: -50vh !important;
+    }
+    .INITIATIVES_card h5{
+        font-size: 6vw;
+        
+    }
+    .h_line1{
+        width: 100%;
+       
+    }
+    .h_line2{
+        width: 100%;
+       
+    }
+    .Join_Program{
+        margin-top: 17vh;
+       
+    }
+    .h_line{
+        width: 100%;
+    }
+}

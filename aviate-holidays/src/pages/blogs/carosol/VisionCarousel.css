@@ -1,0 +1,33 @@
+#carousel {
+    display: flex;
+    overflow-x: visible;
+    /* -ms-overflow-style: none; */
+    /* Hide the scrollbar for MS Edge */
+    /* scrollbar-width: none; */
+    /* Hide the scrollbar for Mozilla Firefox */
+    
+    margin: 0 auto 0 auto;
+    width: 52.5vw;
+    height: fit-content;
+
+    border: solid #F3E6FF .5px;
+}
+
+#carousel::-webkit-scrollbar {
+    /* display: none; */
+    /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+    -webkit-overflow-scrolling: touch;
+    /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+}
+
+.item {
+    min-width: 300px;
+    min-height: 20vh;
+    margin: 15px;
+
+    font-size: 5em;
+    text-align: center;
+    line-height: 300px;
+    background-color: #FFF9EF;
+    border-radius: 7px;
+}

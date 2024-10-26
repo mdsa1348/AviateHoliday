@@ -1,0 +1,93 @@
+.country-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5vw;
+    background-color: #f0f0f0;
+  }
+  
+  .detail-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 30% !important; /* Adjusted to fit 3 cards in a row */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .detail-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .detail-card h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .detail-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .action-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .price {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .more-button {
+    background-color: #000000;
+    color: #ffffff !important;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-button:hover {
+    background-color: #333;
+  }
+  
+  .show-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .show-more-button:hover {
+    background-color: #555;
+  }
+
+  

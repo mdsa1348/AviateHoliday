@@ -1,0 +1,39 @@
+.logout-confirmation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+
+.logout-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-card h2 {
+    margin-bottom: 15px;
+}
+
+.logout-card button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-card button:last-child {
+    background: #6c757d;
+}
