@@ -2,10 +2,10 @@
                                            Version 1.0, november 2024
                                   MD SABBIR AHAMMED || https://github.com/mdsa1348
 
-   ## TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-     ###  1. Copyright and Ownership
-    The code and all content within this repository are the intellectual property of [MD SABBIR AHAMMED](https://github.com/mdsa1348). Unauthorized copying, distribution, or modification of this content is            strictly prohibited.
-    ### 2. **Access and Permissions**
+ ## TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+   ###  1. Copyright and Ownership
+   The code and all content within this repository are the intellectual property of [MD SABBIR AHAMMED](https://github.com/mdsa1348). Unauthorized copying, distribution, or modification of this content is            strictly prohibited.
+   ### 2. **Access and Permissions**
    This repository is provided for **viewing purposes only**. No permission is granted for:  
    - **Downloading** any part of the repository.  
    - **Cloning** the repository for personal or public use.  
