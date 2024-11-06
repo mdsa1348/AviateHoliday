@@ -1,4 +1,20 @@
-﻿# AviateHoliday
+ # Repository Usage Policy
+  # 1. Copyright and Ownership
+  The code and all content within this repository are the intellectual property of [Your Name/Organization]. Unauthorized copying, distribution, or modification of this content is strictly prohibited.
+  # 2. Access and Permissions
+  This repository is provided for viewing purposes only. No permission is granted for:
+  Downloading any part of the repository.
+  Cloning the repository for personal or public use.
+  Modifying or using the code in any other project or for any purpose without explicit written permission.
+  # 3. Usage Restrictions
+  Any attempt to bypass access restrictions, including automated or manual methods to download or alter the contents, will be considered a violation of this policy and may result in legal action.
+  # 4. Licensing
+  No open-source license is attached to this repository. Any usage, copying, or sharing outside of what is explicitly stated in this policy is not allowed and will be subject to intellectual property law.
+  # 5. Enforcement
+  Violations of this policy will be monitored, and appropriate action will be taken if unauthorized use is detected. This may include, but is not limited to, reporting the activity to GitHub and taking legal        steps if necessary.
+ 
+ 
+ # AviateHoliday
 
 
 ##  npm start & node index to start
