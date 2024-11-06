@@ -1,6 +1,6 @@
-                                                                    Project License
-                                                               Version 1.0, november 2024
-                                                      MD SABBIR AHAMMED || https://github.com/mdsa1348
+                                                Project License
+                                           Version 1.0, november 2024
+                                  MD SABBIR AHAMMED || https://github.com/mdsa1348
 
    ## TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
   # 1. Copyright and Ownership
