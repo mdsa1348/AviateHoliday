@@ -7,9 +7,10 @@
   The code and all content within this repository are the intellectual property of [MD SABBIR AHAMMED](https://github.com/mdsa1348). Unauthorized copying, distribution, or modification of this content is strictly prohibited.
   # 2. Access and Permissions
   This repository is provided for viewing purposes only. No permission is granted for:
-  Downloading any part of the repository.
-  Cloning the repository for personal or public use.
-  Modifying or using the code in any other project or for any purpose without explicit written permission.
+  -Downloading any part of the repository.
+  -Cloning the repository for personal or public use.
+  -Modifying or using the code in any other project or for any purpose without explicit written permission.
+  
   # 3. Usage Restrictions
   Any attempt to bypass access restrictions, including automated or manual methods to download or alter the contents, will be considered a violation of this policy and may result in legal action.
   # 4. Licensing
