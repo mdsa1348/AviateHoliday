@@ -1,4 +1,4 @@
-                                                Project License
+                                                Software License
                                            Version 1.0, november 2024
                                   MD SABBIR AHAMMED || https://github.com/mdsa1348
 
